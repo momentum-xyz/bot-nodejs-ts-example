@@ -20,16 +20,13 @@ npm login --scope=@momentum-xyz --auth-type=legacy --registry=https://npm.pkg.gi
 
 ## Installation
 
-Export this repository, replace `my-cool-bot` with the name of your bot project:
+Download the [latest version archive](https://github.com/momentum-xyz/bot-nodejs-ts-example/archive/refs/heads/master.zip) and unzip it. You can rename the default `bot-nodejs-ts-example-develop` to a different name.
+
+In the console enter the project directory and install the dependencies:
 
 ```bash
-git export https://github.com/momentum-xyz/bot-nodejs-ts-example.git my-cool-bot
-```
+cd bot-nodejs-ts-example-develop
 
-Install dependencies:
-
-```bash
-cd my-cool-bot
 npm install
 ```
 
